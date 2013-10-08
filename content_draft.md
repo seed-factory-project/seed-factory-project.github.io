@@ -22,12 +22,13 @@ As the factory expands, it produces a growing variety of products for end users,
 As a new way to organize production, Seed Factories build on past experience from Industrial Technology and Engineering. 
 
 
-##The Seed Starter Kit (SSK)
-
-
-
-
-##Work with Us
+##Join Us
+####Help us Develop & Plant the first of its kind Seed Starter Kit.
 
 
 ##Contact Us
+
+**Github**: [https://github.com/seed-factory-project](https://github.com/seed-factory-project)<br>
+**Email**: [info@seed-factory.info](mailto:info@seed-factory.info)<br>
+**Twitter**: [@seedfactory_p](https://twitter.com/seedfactory_p)
+
