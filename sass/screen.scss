@@ -1,6 +1,28 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Color Themes */
 
+$theme_yellow: rgb(255,227,56);
+$theme_red: rgb(249,51,51);
+$theme_blue: rgb(0,102,255);
 
+.front_theme {background-color:#FFFFFF;}
+.q_theme {background-color: $theme_blue;color:#FFFFFF;}
+.join_theme {background-color: $theme_red;color:#FFFFFF;}
+.contact_theme {background-color: $theme_yellow;color:#FFFFFF;}
+
+/* Layout */
+
+main {text-align:center;}
+section p {text-align:left;}
+
+header.page_spacing {
+	padding-top:100px;
+	padding-bottom:100px;
+}
+
+section.page_spacing {
+	padding-top:30px;
+	padding-bottom:100px;
+}
+
+.section_par {margin-top:40px;}
+figure p {text-align:center;}

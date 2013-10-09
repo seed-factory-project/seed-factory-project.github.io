@@ -1,1 +1,31 @@
-/* Welcome to Compass. In this file you should write your main styles. (or centralize your imports) Import this file using the following HTML or equivalent: <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Color Themes */
+/* line 7, ../sass/screen.scss */
+.front_theme { background-color: #FFFFFF; }
+
+/* line 8, ../sass/screen.scss */
+.q_theme { background-color: #0066ff; color: #FFFFFF; }
+
+/* line 9, ../sass/screen.scss */
+.join_theme { background-color: #f93333; color: #FFFFFF; }
+
+/* line 10, ../sass/screen.scss */
+.contact_theme { background-color: #ffe338; color: #FFFFFF; }
+
+/* Layout */
+/* line 14, ../sass/screen.scss */
+main { text-align: center; }
+
+/* line 15, ../sass/screen.scss */
+section p { text-align: left; }
+
+/* line 17, ../sass/screen.scss */
+header.page_spacing { padding-top: 100px; padding-bottom: 100px; }
+
+/* line 22, ../sass/screen.scss */
+section.page_spacing { padding-top: 30px; padding-bottom: 100px; }
+
+/* line 27, ../sass/screen.scss */
+.section_par { margin-top: 40px; }
+
+/* line 28, ../sass/screen.scss */
+figure p { text-align: center; }
