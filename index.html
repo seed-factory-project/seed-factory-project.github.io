@@ -8,13 +8,9 @@
       <meta name="viewport" content="width=device-width">
 
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <style>
-          body {
-              padding-top: 50px;
-              padding-bottom: 20px;
-          }
-      </style>
       <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+      <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
       <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
       <link href="css/print.css" media="print" rel="stylesheet" type="text/css" />
       <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -24,10 +20,17 @@
     <header class="header_theme">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+
+          <div class="col-md-4 col-sm-4 col-xs-12">
             <a href="#"><img src="img/brand.png" alt="" id="logo"></a>
             <h1>THE SEED FACTORY PROJECT</h1>
           </div>
+
+          <ul class="link-box col-md-2 hidden-xs">
+              <li><a href="https://github.com/seed-factory-project" class="ghb_link"><i class="icon-github-alt"></i></a></li>
+              <li><a href="https://twitter.com/seedfactory_p" class="twtr_link"><i class="icon-twitter"></i></a></li>
+          </ul>
+
         </div>
       </div>
     </header>
@@ -35,9 +38,11 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
     <main>
 
-      <header class="page_spacing front_theme">
+      <header class="page_spacing front_theme ">
         <div class="container">
-          <h1>We are creating the next generation of manufacturing by bringing together software and basic tools to produce the first autonomous and self-sustaining factory.</h1>
+          <div class="col-md-offset-1 col-sm-offset-1">
+            <h1>We are creating the next generation of manufacturing by bringing together software and basic tools to produce the first autonomous and self-sustaining factory.</h1>
+          </div>
         </div>
       </header>
 
@@ -93,11 +98,9 @@
       </section>
     </main>
 
-      <hr>
-
     <footer>
       <div class="container">
-        <p>&copy; Company 2013</p>
+        <p><img src="favicon.ico"> THE SEED FACTORY PROJECT 2013</p>
       </div>
     </footer>
 

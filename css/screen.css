@@ -1,50 +1,70 @@
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+/* Font-Awesome import */
 /* Color Themes */
-/* line 7, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .front_theme { background-color: #FFFFFF; }
 
-/* line 8, ../sass/screen.scss */
+/* line 15, ../sass/screen.scss */
 .q_theme { background-color: #0066ff; color: #FFFFFF; }
 
-/* line 9, ../sass/screen.scss */
+/* line 16, ../sass/screen.scss */
 .join_theme { background-color: #f93333; color: #FFFFFF; }
 
-/* line 10, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 .contact_theme { background-color: #ffe338; color: #FFFFFF; }
 
 /* Images */
-/* line 14, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 #logo { width: 125px; }
 
 /* Layout */
-/* line 18, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 main { text-align: center; }
-/* line 20, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 main header h1 { text-align: left; }
 
-/* line 23, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 section p { text-align: left; }
 
-/* line 25, ../sass/screen.scss */
-header.header_theme { height: 140px; margin-top: -20px; padding-bottom: 0px; /* Annoying height fix */ }
-/* line 29, ../sass/screen.scss */
-header.header_theme img, header.header_theme h1 { display: inline-block; }
 /* line 32, ../sass/screen.scss */
+header.header_theme { height: 100%; padding: 15px 0px 20px; margin: 0px 0px 0px 0px; /* Annoying height fix */ }
+/* line 37, ../sass/screen.scss */
+header.header_theme img, header.header_theme h1 { display: inline-block; }
+/* line 40, ../sass/screen.scss */
 header.header_theme .container, header.header_theme .row, header.header_theme .col-md-6 { height: 140px; }
-/* line 34, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 header.header_theme img { margin: 0px 0px 100px -20px; }
-/* line 38, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 header.header_theme h1 { font-size: 1.8em; font-weight: bold; width: 100px; }
+/* line 48, ../sass/screen.scss */
+header.header_theme ul { float: right; margin-top: 60px; padding: 10px; }
+/* line 52, ../sass/screen.scss */
+header.header_theme ul li { list-style: none; display: inline-block; }
+/* line 53, ../sass/screen.scss */
+header.header_theme ul li a { background-color: #222222; padding: 10px 15px; color: white; }
+/* line 57, ../sass/screen.scss */
+header.header_theme ul li a:hover { text-decoration: none; }
+/* line 58, ../sass/screen.scss */
+header.header_theme ul li a.ghb_link:hover { background-color: #f93333; }
+/* line 59, ../sass/screen.scss */
+header.header_theme ul li a.twtr_link:hover { background-color: #0066ff; }
 
-/* line 46, ../sass/screen.scss */
-header.page_spacing { padding: 80px 0px 100px; }
-/* line 47, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
+header.page_spacing { padding: 120px 0px 180px; background-image: url("../img/back.jpg"); background-size: cover; }
+/* line 65, ../sass/screen.scss */
 header.page_spacing h1 { margin-top: -30px; }
 
-/* line 50, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 section.page_spacing { padding: 30px 0px 100px; }
 
-/* line 52, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .section_par { margin-top: 40px; }
 
-/* line 53, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 figure p { text-align: center; }
+
+/* line 76, ../sass/screen.scss */
+footer { padding-top: 20px; padding-bottom: 10px; }
+
+/* Pseudo Effects */
