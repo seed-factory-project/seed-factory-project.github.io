@@ -1,0 +1,87 @@
+@import url(bootstrap.min.css);
+@import url(font-awesome.min.css);
+/* Font-Awesome import */
+/* Compass Mixins */
+/* Color Themes */
+/* Layout */
+/* line 17, ../sass/screen.scss */
+body { font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+
+/* line 21, ../sass/screen.scss */
+.header_theme { height: 100%; padding: 15px 0px 20px; margin: 0px 0px 0px 0px; /* Annoying height fix */ }
+/* line 26, ../sass/screen.scss */
+.header_theme img, .header_theme h1 { display: inline-block; }
+/* line 29, ../sass/screen.scss */
+.header_theme .container, .header_theme .row, .header_theme .col-md-6 { height: 140px; }
+/* line 31, ../sass/screen.scss */
+.header_theme img { margin: 0px 0px 100px -20px; }
+/* line 32, ../sass/screen.scss */
+.header_theme h1 { font-size: 1.8em; font-weight: bold; width: 100px; margin-left: -5px; }
+/* line 38, ../sass/screen.scss */
+.header_theme ul { float: right; margin-top: 55px; padding: 10px; }
+/* line 42, ../sass/screen.scss */
+.header_theme ul li { list-style: none; display: inline-block; }
+/* line 43, ../sass/screen.scss */
+.header_theme ul li a { background-color: #222222; padding: 10px 15px; color: white; }
+/* line 47, ../sass/screen.scss */
+.header_theme ul li a:hover { text-decoration: none; }
+/* line 48, ../sass/screen.scss */
+.header_theme ul li a.ghb_link:hover { background-color: #f93333; }
+/* line 49, ../sass/screen.scss */
+.header_theme ul li a.twtr_link:hover { background-color: #0066ff; }
+
+/* line 54, ../sass/screen.scss */
+.front_theme { background-color: #FFFFFF; background-image: url("../img/back2.jpg"); background-size: cover; }
+/* line 58, ../sass/screen.scss */
+.front_theme h1 { color: #FFFFFF; }
+
+/* line 61, ../sass/screen.scss */
+.q_theme { background-color: #0066ff; color: #FFFFFF; }
+
+/* line 62, ../sass/screen.scss */
+.join_theme { background-color: #f93333; color: #FFFFFF; }
+
+/* line 63, ../sass/screen.scss */
+.contact_theme { background-color: #ffe338; color: #FFFFFF; }
+
+/* Images */
+/* line 67, ../sass/screen.scss */
+#logo { width: 125px; }
+
+/* Layout */
+/* line 71, ../sass/screen.scss */
+main { text-align: center; }
+/* line 73, ../sass/screen.scss */
+main header h1 { text-align: left; }
+
+/* line 76, ../sass/screen.scss */
+section p { text-align: left; }
+
+/* line 77, ../sass/screen.scss */
+section a { font-weight: bold; color: #FFFFFF; }
+/* line 78, ../sass/screen.scss */
+section a:active { color: #333333; }
+/* line 79, ../sass/screen.scss */
+section a:hover { color: #AAAAAA; text-decoration: none; }
+
+/* line 86, ../sass/screen.scss */
+header.page_spacing { padding: 90px 0px 100px; }
+
+/* line 89, ../sass/screen.scss */
+section.page_spacing { padding: 30px 0px 80px; }
+
+/* line 91, ../sass/screen.scss */
+figure p { text-align: center; }
+
+/* line 92, ../sass/screen.scss */
+footer { padding-top: 20px; padding-bottom: 10px; }
+
+/* line 97, ../sass/screen.scss */
+.section_par { font-size: 1.4em; margin-top: 40px; }
+@media (min-width: 768px) { /* line 97, ../sass/screen.scss */
+  .section_par { -webkit-columns: 1.4em 2; -moz-columns: 1.4em 2; -ms-columns: 1.4em 2; -o-columns: 1.4em 2; columns: 1.4em 2; } }
+/* line 101, ../sass/screen.scss */
+.section_par p { margin: 0px 0px 20px; }
+
+/* line 104, ../sass/screen.scss */
+.linkbox p { text-align: center; font-size: 1.3em; }
