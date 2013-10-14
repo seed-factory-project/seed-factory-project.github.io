@@ -3,6 +3,8 @@
 @import "bootstrap.min.css";
 @import "font-awesome.min.css";
 
+/* Compass Mixins */
+@import "compass/css3/columns";
 
 
 /* Color Themes */
@@ -11,7 +13,51 @@ $theme_yellow: rgb(255,227,56);
 $theme_red: rgb(249,51,51);
 $theme_blue: rgb(0,102,255);
 
-.front_theme {background-color:#FFFFFF;}
+/* Layout */
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+.header_theme {
+
+	height:100%;
+	padding:15px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	img, h1 { display:inline-block;}
+
+	/* Annoying height fix */
+	.container, .row, .col-md-6 {height:140px;}
+
+	img { margin:0px 0px 100px -20px;}
+	h1 {
+		font-size:1.8em;
+		font-weight: bold;
+		width:100px;
+		margin-left: -5px;
+	}
+	ul {
+		float:right;
+		margin-top:55px;
+		padding:10px;
+		li {list-style:none;display:inline-block;}
+		li a {
+			background-color:#222222;
+			padding:10px 15px;
+			color:white;
+			&:hover {text-decoration:none;}
+			&.ghb_link:hover {background-color:$theme_red;}
+			&.twtr_link:hover {background-color:$theme_blue;}
+		}
+	}
+}
+
+.front_theme {
+	background-color:#FFFFFF;
+	background-image: url("../img/back2.jpg");
+	background-size:cover;
+	h1 {color:#FFFFFF;}
+}
+
 .q_theme {background-color: $theme_blue;color:#FFFFFF;}
 .join_theme {background-color: $theme_red;color:#FFFFFF;}
 .contact_theme {background-color: $theme_yellow;color:#FFFFFF;}
@@ -28,54 +74,35 @@ main {
 }
 
 section p {text-align:left;}
-
-header.header_theme {
-
-	height:100%;
-	padding:15px 0px 20px;
-	margin: 0px 0px 0px 0px;
-	img, h1 { display:inline-block;}
-
-	/* Annoying height fix */
-	.container, .row, .col-md-6 {height:140px;}
-
-	img { margin:0px 0px 100px -20px;}
-	h1 {
-		font-size:1.8em;
-		font-weight: bold;
-		width:100px;
-	}
-	ul {
-		float:right;
-		margin-top:60px;
-		padding:10px;
-		li {list-style:none;display:inline-block;}
-		li a {
-			background-color:#222222;
-			padding:10px 15px;
-			color:white;
-			&:hover {text-decoration:none;}
-			&.ghb_link:hover {background-color:$theme_red;}
-			&.twtr_link:hover {background-color:$theme_blue;}
-		}
-	}
+section a {
+	&:active {color:#333333;}
+	&:hover {color:#AAAAAA;text-decoration:none;}
+	font-weight:bold;
+	color:#FFFFFF;
 }
+
+
 
 header.page_spacing {
-	h1 {margin-top:-30px;}
-	padding: 120px 0px 180px;
-	background-image: url("../img/back.jpg");
-	background-size:cover;
+	padding: 90px 0px 100px;
+}
+section.page_spacing {padding: 30px 0px 80px;}
+
+figure p {text-align:center;}
+footer {
+	padding-top:20px;
+	padding-bottom:10px;
 }
 
-section.page_spacing {padding: 30px 0px 100px;}
+.section_par {
+	@media (min-width: 768px) {@include columns(1.4em 2);}
+	font-size:1.4em;
+	margin-top:40px;
+	p {margin:0px 0px 20px;}
+}
 
-.section_par {margin-top:40px;}
-figure p {text-align:center;}
-
-footer {padding-top:20px;padding-bottom:10px;}
-
-
-
-/* Pseudo Effects */
+.linkbox p{
+	text-align:center;
+	font-size:1.3em;
+}
 
