@@ -3,13 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Dani Eder> -- <System Engineer>
+    <Jacob Payne> -- <Web Developer & Graphic Designer> -- <@latrasis>
+    <Special Somebody> -- <Special Contribution> -- <Special Twitter>
 
 # THANKS
 
-    <name>
+    <Bitcoin Starter Funders>
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr
+    Bootsrap3, FontAwesome
