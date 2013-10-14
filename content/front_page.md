@@ -23,7 +23,13 @@ As a new way to organize production, Seed Factories build on past experience fro
 
 
 ##Join Us
-####Help us Develop & Plant the first of its kind Seed Starter Kit.
+####Help us Develop & Plant the first of its kind Seed Starter Kit. 
+
+We are currently looking for System Engineers and Software Engineers with strong experience in Manufacturing Process Management, as well as Mechanical/Mechatronics Engineers experienced in designing and building reliable robotic assemblies.
+
+We are an open source project: so wether you are a Software Engineer or Developer working remotely, an Engineer that has spare time, or anybody else who thinks they can contribute as well, [get in touch](mailto:info@seed-factory.info).
+
+
 
 
 ##Contact Us
