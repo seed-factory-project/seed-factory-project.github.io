@@ -18,35 +18,44 @@ body {
    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
    font-weight: 300;
 }
+
+header.page_spacing {
+	padding: 90px 0px 100px;
+}
+section.page_spacing {padding: 30px 0px 80px;}
+
 .header_theme {
 
 	height:100%;
 	padding:15px 0px 20px;
 	margin: 0px 0px 0px 0px;
+	background-color:#FFF;
 	img, h1 { display:inline-block;}
 
 	/* Annoying height fix */
 	.container, .row, .col-md-6 {height:140px;}
 
-	img { margin:0px 0px 100px -20px;}
+	figure p {text-align:center;}
+	img { margin:0px 0px 95px -20px;}
 	h1 {
+		line-height: 2ex;
 		font-size:1.8em;
 		font-weight: bold;
 		width:100px;
-		margin-left: -5px;
+		margin-left: -6px;
 	}
 	ul {
-		float:right;
 		margin-top:55px;
 		padding:10px;
 		li {list-style:none;display:inline-block;}
 		li a {
 			background-color:#222222;
 			padding:10px 15px;
-			color:white;
+			color:#FFF;
 			&:hover {text-decoration:none;}
 			&.ghb_link:hover {background-color:$theme_red;}
 			&.twtr_link:hover {background-color:$theme_blue;}
+			&.book_link:hover {background-color:$theme_yellow;}
 		}
 	}
 }
@@ -55,13 +64,42 @@ body {
 	background-color:#FFFFFF;
 	background-image: url("../img/back2.jpg");
 	background-size:cover;
-	h1 {color:#FFFFFF;}
+	h1 {
+		color:#FFFFFF;
+	}
 }
 
-.q_theme {background-color: $theme_blue;color:#FFFFFF;}
-.join_theme {background-color: $theme_red;color:#FFFFFF;}
-.contact_theme {background-color: $theme_yellow;color:#FFFFFF;}
+.q_theme {
+	h2 {color:$theme_blue;}
+	img {
+		width:260px;
+		background-color:$theme_blue;
+		margin: 20px 0px;
+	}
+}
 
+.join_theme {
+	h2 {color:$theme_red;}
+	background-color:#E4E4E4;
+}
+
+.contact_theme {
+	background-color:#AFAFAF;
+	padding-bottom:50px;
+	h2 {color:$theme_yellow;}
+	.linkbox {
+		a {
+			margin:20px;
+			color:#555;
+			&:hover{
+				.icon-github-alt {color:$theme_red;}
+				.icon-twitter {color:$theme_blue;}
+				.icon-envelope {color:$theme_yellow;}
+			}
+		}
+	}
+	
+}
 /* Images */
 
 #logo {width:125px;}
@@ -73,25 +111,21 @@ main {
 	header h1 {text-align:left;}
 }
 
+
 section p {text-align:left;}
-section a {
+section a, footer a {
 	&:active {color:#333333;}
 	&:hover {color:#AAAAAA;text-decoration:none;}
 	font-weight:bold;
 	color:#FFFFFF;
 }
 
-
-
-header.page_spacing {
-	padding: 90px 0px 100px;
-}
-section.page_spacing {padding: 30px 0px 80px;}
-
-figure p {text-align:center;}
 footer {
 	padding-top:20px;
 	padding-bottom:10px;
+	p {
+		color:#CCCCCC;
+		margin:15px 0px -25px;}
 }
 
 .section_par {
@@ -99,10 +133,5 @@ footer {
 	font-size:1.4em;
 	margin-top:40px;
 	p {margin:0px 0px 20px;}
-}
-
-.linkbox p{
-	text-align:center;
-	font-size:1.3em;
 }
 
