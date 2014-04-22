@@ -16,3 +16,4 @@
     HTML5, CSS3
     jQuery, Modernizr
     Bootsrap3, FontAwesome
+    Jekyll Static Site Generator, Github Pages
