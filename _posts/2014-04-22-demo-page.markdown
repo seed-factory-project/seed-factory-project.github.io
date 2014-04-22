@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "Demo Post!"
+author: Jacob Payne
+date:   2014-04-22
+categories: update
+---
+
+This is Test Post
+
+With the use of the Markdown format - writing freehosted static blogs is easy!
+
+:)

@@ -1,0 +1,21 @@
+---
+layout: default
+custom_css: blog.css, post.css
+---
+
+<!-- Custom Blog Css -->
+<base="/"></base>
+<link rel="stylesheet" href="/css/blog.css">
+
+<section class="post_theme">
+  <div class="container">
+      <!-- This loops through the paginated posts -->
+      <div class="col-md-9 col-sm-9 col-md-offset-1 col-sm-offset-1">
+        <h1 class="post_title">{{ page.title }}</h1>
+		<p class="meta">By <span class="author">{{ page.author }}</span> on {{ page.date | date_to_string }}</p>
+		<div class="post">
+		{{ content }}
+		</div>
+      </div>
+  </div>
+</section>

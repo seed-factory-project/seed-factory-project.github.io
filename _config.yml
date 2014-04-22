@@ -1,0 +1,6 @@
+name: The Seed Factory Project
+markdown: redcarpet
+pygments: true
+baseurl: /
+gems:
+- jekyll-compass
