@@ -1,0 +1,137 @@
+/* Font-Awesome import */
+
+@import "bootstrap.min.css";
+@import "font-awesome.min.css";
+
+/* Compass Mixins */
+@import "compass/css3/columns";
+
+
+/* Color Themes */
+
+$theme_yellow: rgb(255,227,56);
+$theme_red: rgb(249,51,51);
+$theme_blue: rgb(0,102,255);
+
+/* Layout */
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+header.page_spacing {
+	padding: 90px 0px 100px;
+}
+section.page_spacing {padding: 30px 0px 80px;}
+
+.header_theme {
+
+	height:100%;
+	padding:15px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	background-color:#FFF;
+	img, h1 { display:inline-block;}
+
+	/* Annoying height fix */
+	.container, .row, .col-md-6 {height:140px;}
+
+	img { margin:0px 0px 95px -20px;}
+	h1 {
+		line-height: 2ex;
+		font-size:1.8em;
+		font-weight: bold;
+		width:100px;
+		margin-left: -6px;
+	}
+	ul {
+		margin-top:55px;
+		padding:10px;
+		li {list-style:none;display:inline-block;}
+		li a {
+			background-color:#222222;
+			padding:10px 15px;
+			color:#FFF;
+			&:hover {text-decoration:none;}
+			&.ghb_link:hover {background-color:$theme_red;}
+			&.twtr_link:hover {background-color:$theme_blue;}
+			&.book_link:hover {background-color:$theme_yellow;}
+		}
+	}
+}
+
+.front_theme {
+	background-color:#FFFFFF;
+	background-image: url("../img/back2.jpg");
+	background-size:cover;
+	h1 {
+		color:#FFFFFF;
+	}
+}
+
+.q_theme {
+	figure p {text-align:center;}
+	h2 {color:$theme_blue;}
+	img {
+		width:260px;
+		background-color:$theme_blue;
+		margin: 20px 0px;
+	}
+}
+
+.join_theme {
+	h2 {color:$theme_red;}
+	background-color:#E4E4E4;
+}
+
+.contact_theme {
+	background-color:#AFAFAF;
+	padding-bottom:50px;
+	h2 {color:$theme_yellow;}
+	.linkbox {
+		a {
+			margin:20px;
+			color:#555;
+			&:hover{
+				.icon-github-alt {color:$theme_red;}
+				.icon-twitter {color:$theme_blue;}
+				.icon-envelope {color:$theme_yellow;}
+			}
+		}
+	}
+	
+}
+/* Images */
+
+#logo {width:125px;}
+
+/* Layout */
+
+main {
+	text-align:center;
+	header h1 {text-align:left;}
+}
+
+
+section p {text-align:left;}
+section a, footer a {
+	&:active {color:#333333;}
+	&:hover {color:#AAAAAA;text-decoration:none;}
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+footer {
+	padding-top:20px;
+	padding-bottom:10px;
+	p {
+		color:#CCCCCC;
+		margin:15px 0px -25px;}
+}
+
+.section_par {
+	@media (min-width: 768px) {@include columns(1.4em 2);}
+	font-size:1.4em;
+	margin-top:40px;
+	p {margin:0px 0px 20px;}
+}
+
