@@ -1,6 +1,6 @@
 name: The Seed Factory Project
 markdown: redcarpet
 pygments: true
-baseurl: /
+baseurl: seed-factory.info
 gems:
 - jekyll-compass
