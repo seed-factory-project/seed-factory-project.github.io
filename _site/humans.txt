@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Dani Eder> -- <System Engineer>
+    <Jacob Payne> -- <Web Developer & Graphic Designer> -- <@latrasis>
+    <Special Somebody> -- <Special Contribution> -- <Special Twitter>
+
+# THANKS
+
+    <Bitcoin Starter Funders>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    Bootsrap3, FontAwesome
+    Jekyll Static Site Generator, Github Pages
